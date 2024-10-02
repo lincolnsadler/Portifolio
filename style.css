@@ -54,9 +54,10 @@ margin-bottom: 10px;}
     grid-gap: 10px;
 }
 
-@media (max-width: 690px) {
+@media (min-width: 690px) {
     body {
-    width: 60vw;
+    width: 60dvw;
+    height: auto;
     margin: 0 auto;
     display: flex;
     }    
